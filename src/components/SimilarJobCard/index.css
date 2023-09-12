@@ -1,0 +1,73 @@
+.similar-job-card {
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-job-card {
+    margin: 10px;
+  }
+}
+
+.company-logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+
+.role-details-container {
+  display: flex;
+  align-items: center;
+}
+
+.role-rating-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.role-title {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #fff;
+  font-weight: 500;
+  padding: 0px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .role-title {
+    font-size: 16px;
+  }
+}
+
+.star-icon {
+  color: #fbbf24;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.rating-text {
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Roboto';
+  padding: 0px;
+  margin: 0px;
+}
+
+.description-text-title {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #fff;
+  font-weight: 500;
+}
+.description {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #fff;
+  line-height: 1.8;
+}
